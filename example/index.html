@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> ArtVerbe ?</title>
+<style>
+   body{
+      margin:0;
+     padding:30px;
+    }
+</style>
+</head>
+<body>
+  <button>
+    click me
+  </button>
+
+<script src="../index.js"></script>
+
+<script> 
+   // it is a good practice to define the progresser at the begin' of the script, and use the method loader in the whole script
+  let progresbar = new Progresser(); 
+  // the progresser returns a resolved promise
+  let promise = Promise.resolve();
+  // passe the loader to the button click Event
+  document.querySelector("button").addEventListener("click",()=>{
+  // the promise is rosolved
+  promise.then(()=>{
+  // loader takes 1 parameters wich is numbers that's in milleseconds for the progressbar duration
+  progresbar.loader(1000);})
+});
+
+</script>
+</body>
+</html>
