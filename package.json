@@ -1,0 +1,24 @@
+{
+  "name": "pre-progress",
+  "version": "1.0.0",
+  "description": "A simple progress bar in your Html file/page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zikama/pre-progresser.git"
+  },
+  "keywords": [
+    "progress-bar",
+    "html-progress-bar",
+    "simple-progress-bar"
+  ],
+  "author": "Nehemie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zikama/pre-progresser/issues"
+  },
+  "homepage": "https://github.com/zikama/pre-progresser#readme"
+}
